@@ -21,9 +21,9 @@ windows系统下
 
 ![](screenshot4.jpg)
 
-或者, 输入 "e" 查看日志可以提前看到答案
+后台可以提前看到答案
 
-![](screenshot2.png)
+![](screenshot3.jpg)
 
 然后, 就可以轻松王者啦
 
