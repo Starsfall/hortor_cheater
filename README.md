@@ -23,7 +23,7 @@ windows系统下
 
 后台可以提前看到答案
 
-![](screenshot3.jpg)
+![](screenshot2.jpg)
 
 然后, 就可以轻松王者啦
 
