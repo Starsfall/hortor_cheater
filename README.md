@@ -1,17 +1,17 @@
 # hortor_cheater
 
-> 王者头脑作弊辅助工具
+> 王者头脑（lajiwaigua）辅助工具
 
 基于 [mitmproxy](https://github.com/mitmproxy/mitmproxy) 实现, 具体方式是抓包获取数据问题和选项, 通过搜索引擎查询问题, 
 并在返回页面中匹配问题选项出现的次数, 一般来说出现次数最多的选型可能是正确答案的概率较大 (或者出现次数最少的选项).
 
-运行程序:
-
+windows系统下
+运行程序：
 ```bash
-$ mitmproxy -p 8129  -s listen.py
+$ mitmdump -p 8888  -s xxx.py
 ```
-
-打开 `http://mitm.it` 下载并安装证书, 并设置设备的手动代理到相应地址(eg. 192.168.2.235:8129)
+现在手机端 wifi的http代理处设置相应地址及端口(eg. 39.108.66.50:8888)
+打开 `http://mitm.it` 下载并安装证书（IOS需要在关于本机处信任证书）
 
 ![](screenshot3.png)
 
