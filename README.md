@@ -6,8 +6,8 @@
 并在返回页面中匹配问题选项出现的次数, 一般来说出现次数最多的选型可能是正确答案的概率较大 (或者出现次数最少的选项).
 
 添加了MySQL数据库，抓到的问题先搜索数据库，数据库里没有对应答案再通过搜索引擎查询问题，回答后再次抓包正确答案并和问题一起存入数据库
-hortor_cheater /C0AXFF8）OHQQZL）] CQDC7Q1.jpg
-![](C0AXFF8）OHQQZL）] CQDC7Q1.jpg)
+
+![MySQL](https://github.com/Starsfall/hortor_cheater/blob/master/C0AXFF8)OHQQZL)%5DCQDC7Q1.jpg)
 
 windows系统下
 在.py文件所在目录打开命令提示行，运行程序：
