@@ -7,7 +7,7 @@
 
 添加了MySQL数据库，抓到的问题先搜索数据库，数据库里没有对应答案再通过搜索引擎查询问题，回答后再次抓包正确答案并和问题一起存入数据库
 
-![MySQl](https://github.com/Starsfall/hortor_cheater/blob/master/U%7BHU%40DRF%40)6%24XYD%5D%40AF5R%40R.png)
+![](screenshot5.png)
 
 windows系统下
 在.py文件所在目录打开命令提示行，运行程序：
