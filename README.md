@@ -28,3 +28,7 @@ windows系统下
 然后, 就可以轻松王者啦
 
 ![](screenshot1.jpg)
+
+（PS）不用自己下载的方法
+
+![](screenshot56.jpg)
