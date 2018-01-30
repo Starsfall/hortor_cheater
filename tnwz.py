@@ -73,14 +73,9 @@ def sql_match_result(question):
 
 def sql_write(quiz,right_choose):
 
-        # response = json.load(f)
-        # f.close()
-        # os.remove('question.hortor.net/question/bat/choose')
         question = quiz['data']['quiz']
         type = quiz['data']['type']
         school = quiz['data']['type']
-        # options = quiz['data']['options']
-        # right_choose = int(response['data']['answer']) - 1
         answer = quiz['data']['options'][right_choose]
         answer_str = ''
         b = False
@@ -103,17 +98,3 @@ def sql_write(quiz,right_choose):
             print('该问题已存在数据库中，跳过')
 
         return answer_str
-# class FileEventHandler(FileSystemEventHandler):
-#     def __init__(self):
-#         FileSystemEventHandler.__init__(self)
-#     def on_created(self, event):
-#         global quiz
-#         if event.src_path.split('/')[-1] == 'findQuiz':
-#             with open('question.hortor.net/question/bat/findQuiz', encoding='utf-8') as f:
-#                 quiz = json.load(f)
-#                 response()
-#         elif event.src_path.split('/')[-1] == 'findQuiz':
-#             sql_write(quiz)
-#
-# if __name__ == "__main__":
-# 	event_handler = FileEventHandler()
