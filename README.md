@@ -31,4 +31,4 @@ windows系统下
 
 （PS）不用自己下载的方法
 
-![](screenshot56.jpg)
+![](screenshot56.png)
