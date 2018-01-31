@@ -34,7 +34,7 @@ def response(flow):
 
 
 def ask(question, options):
-    sql_result = sql_match_result('"%s"' % question)
+    sql_result = sql_match_result(question)
     if sql_result:
         answer = []
         for option in options:
